@@ -57,7 +57,7 @@ client.on("ready", () => {
   client.setInterval(update,30000);
 });
 
-/*client.on("message", (message) => {
+client.on("message", (message) => {
   if (message.content.startsWith("!status")) {
     message.channel.send("https://mcapi.us/server/image?ip=goodboyes.mcpro.io&theme=dark");
     update();
