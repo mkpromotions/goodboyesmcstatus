@@ -60,7 +60,7 @@ client.on("ready", () => {
 client.on("message", (message) => {
   if (message.content.startsWith("!status")) {
     message.channel.send("https://mcapi.us/server/image?ip=goodboyes.mcpro.io&theme=dark");
-    update();
+   
 
   }
 }
